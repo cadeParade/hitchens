@@ -22,8 +22,8 @@
 
 .post p {
   text-align: justify;
-  text-indent: 1.5em;
   text-justify: inter-word;
+  margin-top: 15px;
 }
 
 .post p:first-of-type,
@@ -62,4 +62,12 @@
   padding: 1em;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.about-image {
+  border-radius:5px;
+}
+
+.p-centered {
+  text-align: center;
 }
