@@ -22,7 +22,6 @@
 
 .post p {
   text-align: justify;
-  // text-indent: 1.5em;
   text-justify: inter-word;
   margin-top: 15px;
 }
@@ -67,4 +66,8 @@
 
 .about-image {
   border-radius:5px;
+}
+
+.p-centered {
+  text-align: center;
 }
