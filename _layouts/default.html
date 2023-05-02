@@ -10,7 +10,10 @@
 
     {% if site.description %}<meta name="description" content="{{ site.description }}">{% endif %}  
 
-    <link rel="stylesheet" href={{ "/assets/css/main.css" | relative_url }}>
+      <!-- <img class="about-image" src="{{ "/assets/images/lindsay.png" | prepend: site.baseurl }}"> -->
+
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}" }}>
+    <!-- <link rel="stylesheet" href={{ "/assets/css/main.css" | relative_url }}> -->
     <!-- <link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}?{{ site.time | date: '%s%N' }}"> -->
 
     <link rel="apple-touch-icon" href="{{ site.icon }}">

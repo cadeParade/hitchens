@@ -12,5 +12,5 @@ title: About
 </p>
 
 <figure>
-  <img class="about-image" alt="Image of Lindsay" src="/assets/images/lindsay.png" />
+  <img class="about-image" src="{{ "/assets/images/lindsay.png" | prepend: site.baseurl }}">
 </figure>
