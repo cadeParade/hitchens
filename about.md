@@ -12,13 +12,16 @@ title: About
 </p>
 
 <figure>
+
   <img
-  sizes="(max-width: 1400px) 100vw, 1400px"
-  srcset="
-  {{ "/assets/images/lindsay_scale,w_200.png 200w" | prepend: site.baseurl }},
-  {{ "/assets/images/lindsay_scale,w_774.png 774w" | prepend: site.baseurl }},
-  {{ "/assets/images/lindsay_scale,w_1142.png 1142w" | prepend: site.baseurl }},
-  {{ "/assets/images/lindsay_scale,w_1400.png 1400w" | prepend: site.baseurl }}"
-  src="{{ "lindsay_ztx6sw_c_scale,w_1400.png 1400w" | prepend: site.baseurl }}"
-  alt="A photo of Lindsay on the summit of Mauna Loa in Hawai'i">
+    class="about-image"
+    sizes="(max-width: 1400px) 100vw, 1400px"
+    srcset="
+    {{ "/assets/images/lindsay_scale,w_200.png 200w" | prepend: site.baseurl }},
+    {{ "/assets/images/lindsay_scale,w_774.png 774w" | prepend: site.baseurl }},
+    {{ "/assets/images/lindsay_scale,w_1142.png 1142w" | prepend: site.baseurl }},
+    {{ "/assets/images/lindsay_scale,w_1400.png 1400w" | prepend: site.baseurl }}"
+    src="{{ "lindsay_ztx6sw_c_scale,w_1400.png 1400w" | prepend: site.baseurl }}"
+    alt="A photo of Lindsay on the summit of Mauna Loa in Hawai'i"
+  >
 </figure>
